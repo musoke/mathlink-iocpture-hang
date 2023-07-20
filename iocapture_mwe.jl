@@ -5,7 +5,7 @@ using MathLink
 function hangs()
     @debug "Before capture"
     c = IOCapture.capture() do
-        W`Sin`
+        weval("Sin")
     end
     @debug "After capture" c
 end
@@ -13,7 +13,7 @@ end
 function hangs_mwe()
     @debug "Before capture"
     c = iocapture_mwe() do
-        W`Sin`
+        weval("Sin")
     end
     @debug "After capture" c
 end
