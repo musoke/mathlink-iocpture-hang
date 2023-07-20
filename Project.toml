@@ -1,0 +1,8 @@
+[deps]
+IOCapture = "b5f81e59-6552-4d32-b1f0-c071b021bf89"
+MathLink = "18c93696-a329-5786-9845-8443133fa0b4"
+
+[compat]
+IOCapture = "0.2.3"
+MathLink = "0.5.1"
+julia = "1.9.2"
