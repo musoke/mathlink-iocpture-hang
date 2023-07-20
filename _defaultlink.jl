@@ -12,5 +12,8 @@ end
 
 ENV["JULIA_DEBUG"] = "IOCapture,MathLink"
 
-# W`Sin`
+# W`Sin`  # no hang if uncommented
+
+# weval("Sin[0]")  # no hang if uncommented
+
 hangs()
